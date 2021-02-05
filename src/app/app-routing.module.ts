@@ -8,6 +8,11 @@ const appRoutes: any = [
   {
     path: "bar-code",
     component: BarCodeBaseComponent
+  },
+  {
+    path: "",
+    redirectTo: "/bar-code",
+    pathMatch: "full"
   }
 ];
 
